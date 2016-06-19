@@ -7,3 +7,4 @@ video/avi=vlc.desktop
 audio/wav=vlc.desktop
 audio/mp3=vlc.desktop
 video/mp4=vlc.desktop
+inode/directory=org.gnome.Nautilus.desktop
