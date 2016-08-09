@@ -9,8 +9,8 @@
     ]
     projectHome: "/home/dan/work/atom"
     themes: [
-      "seti-ui"
-      "monokai-seti"
+      "atom-dark-ui"
+      "atom-dark-syntax"
     ]
   editor:
     fontFamily: "Consolas"
