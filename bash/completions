@@ -33,6 +33,7 @@ __user_python_completions=(
     claw
     je
     tmuxp
+    docl
 )
 for __user_python_completion in ${__user_python_completions[@]}; do
     complete -o nospace -o default -F __user_python_argcomplete ${__user_python_completion}
