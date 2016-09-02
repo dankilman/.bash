@@ -29,7 +29,6 @@ __user_python_argcomplete() {
 }
 __user_python_completions=(
     clue
-    cfy
     claw
     je
     tmuxp
@@ -38,3 +37,11 @@ __user_python_completions=(
 for __user_python_completion in ${__user_python_completions[@]}; do
     complete -o nospace -o default -F __user_python_argcomplete ${__user_python_completion}
 done
+
+_cfy_completion() {
+    COMPREPLY=( $( env COMP_WORDS="${COMP_WORDS[*]}" \
+                       COMP_CWORD=$COMP_CWORD \
+                       _CFY_COMPLETE=complete $1 ) )
+}
+
+complete -F _cfy_completion -o default cfy;
