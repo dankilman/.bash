@@ -5,6 +5,7 @@ text/x-yaml=sublime_text_3.desktop
 video/x-matroska=vlc.desktop
 video/avi=vlc.desktop
 audio/wav=vlc.desktop
+audio/x-aiff=vlc.desktop
 audio/mp3=vlc.desktop
 video/mp4=vlc.desktop
 video/mpeg=vlc.desktop
