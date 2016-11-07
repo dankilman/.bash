@@ -5,12 +5,12 @@
 # required order:
 # functions -> completions
 # git       -> prompt      -> fasd
+# alias last
 
 __sourced=(
     misc
     exports
     colors
-    aliases
     functions
     completions
     git
@@ -19,6 +19,7 @@ __sourced=(
     virtualenvwrapper
     fasd
     fzf
+    aliases
 )
 
 __script_path="$(readlink -nf ${BASH_SOURCE[0]})"
