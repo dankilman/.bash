@@ -17,7 +17,7 @@
     ]
   editor:
     fontFamily: "Consolas"
-    fontSize: 20
+    fontSize: 19
     invisibles: {}
     lineHeight: 1
     preferredLineLength: 100
