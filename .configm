@@ -8,6 +8,7 @@ repos:
 
 symlinks:
   bash/bashrc: ~/.bashrc
+  bash/bash_profile: ~/.bash_profile
   bash/exports: ~/.xprofile
   readline/inputrc: ~/.inputrc
   fasd/fasdrc: ~/.fasdrc
